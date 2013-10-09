@@ -37,11 +37,18 @@
 #menu a:active{color:#7A7A66;}
 #menu a {display:none;}
 
-/*Innehåll*/
+/*Innehålls del 1*/
 #content {width:860px; margin:0; height:auto;background-color:#DBD4BA;}
 #maincontent {float:left;
              width:420px;
              height:100%;}
+#maincontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
+    font-size:2em;margin:10px;}
+#maincontent p {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
+                font-size:1em;margin:10px;}
+img {float:left; margin:10px;}
+
+/*Innehållsdel 2*/
 #subcontent {border-left:1px dashed;
              border-color:#7A7455;
              float:left;
