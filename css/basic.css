@@ -43,7 +43,7 @@
              width:420px;
              height:100%;}
 #maincontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
-    font-size:2em;margin:10px;}
+    font-size:2em;margin:10px;height:100%;}
 #maincontent p {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
                 font-size:1em;margin:10px;}
 img {float:left; margin:10px;}
@@ -54,7 +54,7 @@ img {float:left; margin:10px;}
              float:left;
              width:430px;
              margin:20px 0 0 5px;
-             height:400px;
+             height:100%;
              }
 #subcontent ul {list-style-type:none;margin:0;}
 #subcontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
@@ -63,7 +63,11 @@ img {float:left; margin:10px;}
               font-size:0.8em;margin:15px 10px 70px}
 h2 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
    font-size:0.8em;margin:0 10px;}
-
+   
+/*sidfot*/
+#bottomcontent {clear:both;color:#7A7455;color:#7A7455;
+               font-family:"Times New Roman","Verdana" sans-serif;
+               font-size:0.7em;padding-left:10px; padding-bottom:10px;}
 
 
 
