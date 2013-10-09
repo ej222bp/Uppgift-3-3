@@ -1,5 +1,5 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-#container {max-width:860px;height:100%; border:1px solid black;}
+#container {max-width:660px;height:100%; border:1px solid black;}
 #topbar {background-image:url("../css/pics/coffey.jpg");
         background-repeat:no-repeat;
         background-position:center;
@@ -38,9 +38,9 @@
 #menu a {display:none;}
 
 /*Innehålls del 1*/
-#content {width:860px; margin:0; height:auto;background-color:#DBD4BA;}
+#content {max-width:660px; margin:0; height:auto;background-color:#DBD4BA;}
 #maincontent {float:left;
-             width:420px;
+             width:380px;
              height:100%;}
 #maincontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
     font-size:2em;margin:10px;height:100%;}
@@ -52,15 +52,16 @@ img {float:left; margin:10px;}
 #subcontent {border-left:1px dashed;
              border-color:#7A7455;
              float:left;
-             width:430px;
-             margin:20px 0 0 5px;
+             width:140px;
              height:100%;
+             margin-left:30px;
+             margin-top:20px;
              }
 #subcontent ul {list-style-type:none;margin:0;}
 #subcontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
                 font-size:1.1em;margin:10px 10px 0;}
 #subcontent p {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
-              font-size:0.8em;margin:15px 10px 70px}
+              font-size:0.8em;margin:15px 10px 40px}
 h2 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
    font-size:0.8em;margin:0 10px;}
    
