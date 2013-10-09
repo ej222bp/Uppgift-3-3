@@ -38,15 +38,25 @@
 #menu a {display:none;}
 
 /*Innehåll*/
-#content {width:860px; margin:0; height:auto;}
+#content {width:860px; margin:0; height:auto;background-color:#DBD4BA;}
 #maincontent {float:left;
              width:420px;
              height:100%;}
-#subcontent {float:left;
+#subcontent {border-left:1px dashed;
+             border-color:#7A7455;
+             float:left;
              width:430px;
              margin:20px 0 0 5px;
              height:400px;
              }
+#subcontent ul {list-style-type:none;margin:0;}
+#subcontent h1 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
+                font-size:1.1em;margin:10px 10px 0;}
+#subcontent p {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
+              font-size:0.8em;margin:15px 10px 70px}
+h2 {color:#7A7455;font-family:"Times New Roman","Verdana" sans-serif;
+   font-size:0.8em;margin:0 10px;}
+
 
 
 
