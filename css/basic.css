@@ -8,6 +8,7 @@
         border:1px solid black;height:250px;
 }
 
+/*Navigation start*/
 #menu {margin:0;
        width:100%;
        position:absolute;
@@ -35,6 +36,22 @@
 #menu a:hover{background:#8E917A;}
 #menu a:active{color:#7A7A66;}
 #menu a {display:none;}
+
+/*Innehåll*/
+#content {width:860px; margin:0; height:auto;background-color:#DBD4BA;}
+#maincontent {float:left;
+             width:420px;
+             height:100%;}
+#subcontent {border-left:1px dashed;
+             border-color:#7A7455;
+             float:left;
+             width:430px;
+             margin:20px 0 0 5px;
+             height:400px;
+             }
+#bottomcontent {clear:both;}
+
+
 
 
 
